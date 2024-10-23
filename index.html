@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>poll</title>
+    <link rel="shortcut icon" href="./assets/images/th.jpeg" type="image/x-icon">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <!-- <link rel="stylesheet" href="./style1.css"> -->
+    <link href="./style1.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<!-- <style>
+
+</style> -->
+
+<body>
+    <header></header>
+    <main>
+
+        <section class="pollContainer align">
+            <div class="poll ComponentSpacing">
+                <div class="pollBody grid12">
+                    <div class="insertPoll dflexCol">
+                        <div class="insertJumbotron dflexCol">
+                            <div class="insertHead dflex">
+                                <i class="fa-solid fa-bars-progress"></i>
+                                <h3>Insert a simple Poll</h3>
+                                <div class=" dflexEnd">
+                                    <i class="fa-solid fa-circle-info"></i>
+                                </div>
+                            </div>
+                            <div class="insertText dflex">
+                                <p>Simple poll is a tool for creating quick polls, letting users easily vote on various options and collect feedback.</p>
+                            </div>
+                        </div>
+                        <ul class="insertList dflexCol">
+                            <li class=" dark dflex"><a href="#"><i class="fa-solid fa-bars-staggered"></i> Question &
+                                    answers</a></li>
+                            <li class="dflex"><a href="#"> <i class="fa-solid fa-braille"></i>Choose Template </a></li>
+                            <li class="dflex"><a href="#"><i class="fa-solid fa-square-poll-vertical"></i>Poll
+                                    placement</a></li>
+                            <li class="dflex"><a href="#"> <i class="fa-regular fa-calendar-days"></i>Schedule</a></li>
+                            <li class="dflex"><a href="#"><i class="fa-solid fa-toolbox"></i>Advanced Settings</a></li>
+                            <li class="dflex"><a href="#"><i class="fa-brands fa-unity"></i>Integration</a></li>
+                            <li class="dflex"><a href="#"><i class="fa-solid fa-arrow-up-from-bracket"></i> Share or
+                                    embeded Poll</a></li>
+                        </ul>
+                        <div class="step dflexCol">
+                            <p>Step 1 of 7</p>
+
+                        </div>
+                        <div class="navline dflex">
+
+                        </div>
+                    </div>
+                    <div class="qnA ">
+                        <div class="qnAHeadBody dflex">
+                            <h3> Question & answers</h3>
+                            <!-- <i></i> -->
+                            <!-- <p>x X</p> -->
+                            <i class="fa-solid fa-x"></i>
+                        </div>
+                        <div class="questionBody dflexCol">
+                            <h4> Ask a Question</h4>
+                            <input type="text" placeholder="Type your question...">
+                        </div>
+                        <div class="pollTypeBody dflexCol">
+                            <h4>Poll type</h4>
+                            <div class="type grid3">
+                                <div class="select dflex">
+                                    <i class="fa-solid fa-bars-progress"></i>
+                                    <p>Select List</p>
+                                </div>
+                                <div class="emoji dflex">
+                                    <i class="fa-regular fa-face-smile"></i>
+                                    <p>Emojis</p>
+                                </div>
+                                <div class="numerical dflex">
+                                    <i class="fa-solid fa-1"></i>
+                                    <p> Numerical</p>
+                                </div>
+                            </div>
+                            <div class="optionBody dflexCol">
+                                <h4>Options</h4>
+                                <div class="touched dflex">
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+    
+                                    <div class="expression dflex">
+                                        <i class="fa-solid fa-face-grin-stars"></i>
+                                        <p> I'm touched</p>
+                                        <i class="fa-solid fa-x"></i>
+                                    </div>
+    
+    
+                                </div>
+                                <div class="typeOption dflex">
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+    
+                                    <div class="expression dflex">
+                                        <i class="fa-regular fa-face-smile-beam"></i>
+                                        <input type="text" placeholder="Type optional description...">
+                                        <i class="fa-solid fa-x"></i>
+                                    </div>
+    
+                                </div>
+                                <div class="add dflex">
+                                    <!-- <i></i> -->
+                                    <p> + Add option</p>
+                                </div>
+                            </div>
+                        </div>
+                      
+                        <div class="durationBody ">
+                            <h4>Duration</h4>
+                            <div class="set grid2">
+                                <div class="date">
+                                    <p>Set end date</p>
+                                </div>
+                                <div class="length">
+                                    <p> Set length</p>
+                                </div>
+                            </div>
+                            <div class="durationOption grid3">
+                                <div class="days">
+                                    <select name="option" id="g">
+                                        <option value="1"><span>1</span>day</option>
+                                        <option value="2"><span>2</span> days</option>
+                                        <option value="3"><span>3</span> days</option>
+                                        <!-- <option value="4">4 days</option>
+                                        <option value="5">5 days</option>
+                                        <option value="6">6 days</option>
+                                        <option value="7">7 days</option> -->
+                                    </select>
+                                </div>
+                                <div class="hours">
+                                    <select name="option">
+                                        <option value="1"><span>0</span>hour</option>
+                                        <option value="2"><span>1</span>hour</option>
+                                        <option value="3"><span>2</span> hours</option>
+                                        <option value="4"><span>3</span> hours</option>
+                                        <!-- <option value="5">4hours</option>
+                                        <option value="6">5hours</option>
+                                        <option value="7">6 hours</option> -->
+                                    </select>
+                                </div>
+
+                                <div class="minutes">
+                                    <select name="option">
+                                        <option value="1"> <span>0</span>minutes</option>
+                                        <option value="2"><span>1</span> minute</option>
+                                        <option value="3"><span>2</span>minutes</option>
+                                        <option value="4"><span>3</span>minutes</option>
+                                        <option value="5"><span>4</span> minutes</option>
+                                        <option value="6"><span>5</span> minutes</option>
+                                        <option value="7"><span>6</span> minutes</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="buttonBox dflex">
+                                <button class="cancelBtn"> <a href="#">Cancel</a></button>
+                                <button class="continueBtn"> <a href="#"> Continue</a></button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
